@@ -33,8 +33,9 @@ nav ul li a {
 
 main {
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
+
 
 footer {
     background-color: #333;
@@ -44,4 +45,11 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover; 
+    align-items: end;
 }
